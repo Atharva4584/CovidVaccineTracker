@@ -1,5 +1,6 @@
 # Covid Vaccine Tracker
-Overview: 
+
+# Overview: 
 In this project, I aim to make the process of booking a vaccination slot on the Cowin portal easier by notifying the user whenever a slot is available in his neighbourhood. Due to the enormous gap between demand and supply of vaccines in India, one often finds it very difficult to book an appointment for vaccination. For some people (including me), it took several hours to book the appointment. So to save valuable time, I thought of making a simple program that will send an email to the user when vaccination is available in his neighbourhood. 
 For this project, I used the following python libraries:
 tkinter
@@ -14,34 +15,19 @@ The features that I am thinking to implement in future are as follows:
 Hosting it on a server and creating a website or app so that someone who does not have python installed on their machine can still use it. 
 Adding more inputs for Pincode. 
 
-How to install:
+# How to install:
 Download the source code from my Github repository.
 If you do not have python installed on your PC, download it from https://www.python.org/.
 Download the required libraries. 
 
-How to use:
-1.	Simply run the code. A window will appear as follows: 
-
-
-
-2.	Fill in the information and click on the submit button.
+# How to use:
+1)	Simply run the code. A window will appear as follows:
+2)	![ui](https://user-images.githubusercontent.com/80218961/124778903-f8431d80-df5e-11eb-9d8b-7a90f002b4db.png) 
+3)	Fill in the information and click on the submit button.
 (use the DD-MM-YYYY format for date). Sample input is given below.
-
-
-
-
-
-
-
-
-
-
-
-3.	Now, if the vaccine is available, the user will receive an email as follows:
-
-
-
-4.	If no vaccines are available for the given date and Pincode, you should get a dialogue box as shown below:
-
-
-
+![sample](https://user-images.githubusercontent.com/80218961/124779210-37716e80-df5f-11eb-8a14-d426a13736fe.png)
+4)	Now, if the vaccine is available, the user will receive an email as follows:
+5)	![mail](https://user-images.githubusercontent.com/80218961/124779318-4eb05c00-df5f-11eb-826a-a6857f27150d.png)
+6)	If no vaccines are available for the given date and Pincode, you should get a dialogue box as shown below:
+	
+7)	![novax](https://user-images.githubusercontent.com/80218961/124779381-5b34b480-df5f-11eb-97c3-9b48d912c742.png)
